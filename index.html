@@ -73,7 +73,7 @@
       <div class="text-center">
         <h1 class="banner-heading mb-3">Get Delicious Food Anytime</h1>
         <p class="banner-caption mb-4">Eat Smart & Healthy</p>
-        <button class="custom-button">View Menu</button>
+        <button class="custom-button" href="#menu">View Menu</button>
         <button class="custom-outline-button">Order Now</button>
       </div>
     </div>
@@ -136,7 +136,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="menu-section-heading">Explore Menu</h1>
+            <h1 class="menu-section-heading" id="menu">Explore Menu</h1>
           </div>
           <div class="col-12 col-md-6 col-lg-3">
             <div class="shadow menu-item-card p-3 mb-3">
@@ -362,7 +362,9 @@
               the true and unadulterated gifts from mother nature. with the true
               and unadulterated gifts from mother nature.
             </p>
-            <button class="custom-button">Watch Video</button>
+            <button class="custom-button" onclick="openYouTubeVideo()">
+              Watch Video
+            </button>
           </div>
         </div>
       </div>
@@ -484,5 +486,15 @@
         </div>
       </div>
     </div>
+    <script>
+      // Function to open the YouTube video in a new tab
+      function openYouTubeVideo() {
+        // URL of the YouTube video to be opened
+        var videoUrl = "https://www.youtube.com/watch?v=yoW4kHHH4lQ";
+
+        // Open the YouTube video in a new tab
+        window.open(videoUrl, "_blank");
+      }
+    </script>
   </body>
 </html>
