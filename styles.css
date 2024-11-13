@@ -21,7 +21,7 @@
   font-family: "Roboto";
 }
 .banner-section-bg-container {
-  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+  background-image: urL("https://img.freepik.com/free-photo/variation-thai-cuisine-with-bell-peppers-bokchoy-wooden-desk-against-black-background_23-2148093088.jpg?w=996&t=st=1726504300~exp=1726504900~hmac=fe703fa99b2e7beb3c27f3e4e417a2cfd12c71c9cdb153c7d8c45244806c14fc");
   height: 100vh;
   background-size: cover;
 }
@@ -39,7 +39,7 @@
 }
 .custom-button {
   color: white;
-  background-color: #d0b200;
+  background-color: #ff4273;
   width: 130px;
   height: 45px;
   border-width: 0;
